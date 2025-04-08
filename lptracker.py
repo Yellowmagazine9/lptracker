@@ -18,7 +18,7 @@ graph_canvas = None
 
 # --- Background Image ---
 try:
-    bg_image = Image.open("C:/Users/roobk/project/leaguetracker/images/singed.jpeg") 
+    bg_image = Image.open("project/leaguetracker/images/singed.jpeg") 
     bg_image = bg_image.resize((700, 500))
     bg_photo = ImageTk.PhotoImage(bg_image)
 
